@@ -4,4 +4,21 @@ body {
 
 .container {
     display: flex;
+    height: 100vh;
+}
+
+.sidebar-body {
+    position: absolute;
+    width: 450px;
+    background: black;
+    opacity: 0.4;
+    top: 8rem;
+    /* text-align: center; */
+    font-size: 1.2em;
+    color: white;
+}
+
+.odin {
+    display: flex;
+    justify-content: center;
 }
