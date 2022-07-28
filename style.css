@@ -27,8 +27,13 @@ input,
 label {
     display: block;
     margin: 1em;
+    width: 300px;
 }
 
-form {
-    width: 400px;
+label {
+    margin-bottom: -1em;
+}
+
+.title {
+    margin: 1em;
 }
