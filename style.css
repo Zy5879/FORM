@@ -7,6 +7,10 @@ body {
     height: 100vh;
 }
 
+.text {
+    margin-top: 8em;
+}
+
 .sidebar-body {
     position: absolute;
     width: 450px;
@@ -21,19 +25,36 @@ body {
 .odin {
     display: flex;
     justify-content: center;
+    align-items: center;
 }
 
-input,
+input {
+    display: block;
+}
+
+form {
+    margin: 2em;
+}
+
+.btn {
+    margin-top: 2em;
+    margin: 2em;
+}
+/* input,
 label {
     display: block;
     margin: 1em;
     width: 300px;
-}
+} */
 
-label {
+/* label {
     margin-bottom: -1em;
+} */
+
+p {
+    margin: 2em;
 }
 
-.title {
-    margin: 1em;
+input {
+    width: 400px;
 }
