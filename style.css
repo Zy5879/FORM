@@ -1,3 +1,8 @@
+:root {
+
+}
+
+
 body {
     margin: 0;
 }
@@ -53,6 +58,7 @@ label {
 
 p {
     margin: 2em;
+    font-family: 'Albert Sans', sans-serif;
 }
 
 input {
