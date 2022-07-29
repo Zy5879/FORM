@@ -1,15 +1,14 @@
-:root {
 
-}
-
-
+html
 body {
     margin: 0;
+    height: 100%;
+    background-color: black;
 }
 
 .container {
     display: flex;
-    height: 100vh;
+    height: 100%;
 }
 
 .text {
@@ -24,7 +23,7 @@ body {
     top: 8rem;
     /* text-align: center; */
     font-size: 1.2em;
-    color: white;
+    color:white;
 }
 
 .odin {
@@ -35,6 +34,8 @@ body {
 
 input {
     display: block;
+    width: 400px;
+    margin-bottom: 1em;
 }
 
 form {
@@ -52,15 +53,24 @@ label {
     width: 300px;
 } */
 
-/* label {
-    margin-bottom: -1em;
-} */
+label {
+    font-family: 'Cormorant SC', serif; 
+    color: #EDEADE;
+}
 
 p {
     margin: 2em;
-    font-family: 'Albert Sans', sans-serif;
+    font-family: 'Josefin Sans', sans-serif;
+    font-weight: bold;
+    font-size: 18px;
+    color: #EDEADE;
 }
 
-input {
-    width: 400px;
+button {
 }
+
+
+/* input {
+    width: 400px;
+    margin-top: 1em;
+} */
