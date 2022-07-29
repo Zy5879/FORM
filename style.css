@@ -1,5 +1,5 @@
 
-html
+/* html */
 body {
     margin: 0;
     height: 100%;
@@ -37,6 +37,18 @@ input {
     width: 400px;
     margin-bottom: 1em;
 }
+input {
+    border: 2px solid gray; 
+    border-radius: 4px;;
+    background: black;
+    color: white;
+    padding-left: 5px;
+}
+input:focus {
+   outline-color: #FF1493;
+   color: transparent white;
+   
+}
 
 form {
     margin: 2em;
@@ -55,7 +67,8 @@ label {
 
 label {
     font-family: 'Cormorant SC', serif; 
-    color: #EDEADE;
+    color: white;
+    font-size: 13px;
 }
 
 p {
