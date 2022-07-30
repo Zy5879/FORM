@@ -97,6 +97,14 @@ p {
     color: black;
 }
 
+.login {
+    font-size: 1em;
+    color: #FF1493;
+}
+
+.login:hover {
+    color: white;
+}
 /* input {
     width: 400px;
     margin-top: 1em;
