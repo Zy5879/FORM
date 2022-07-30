@@ -79,9 +79,23 @@ p {
     color: #EDEADE;
 }
 
-button {
+.account {
+    line-height: 60px;
+    text-align: center;
+    color: #FF1493;
+    margin: 2em;
+    border: 3px solid #FF1493;
+    border-radius: 4px;
+    font-size: 20px;
+    font-family: 'Josefin Sans', sans-serif;
+    width: 200px;
+    height: 60px;
 }
 
+.account:hover {
+    background-color: #FF1493;
+    color: black;
+}
 
 /* input {
     width: 400px;
