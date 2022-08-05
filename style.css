@@ -1,5 +1,5 @@
 
-/* html */
+html
 body {
     margin: 0;
     height: 100%;
@@ -9,6 +9,10 @@ body {
 .container {
     display: flex;
     height: 100%;
+}
+
+.lofi {
+    min-height: 100vh;
 }
 
 .text {
@@ -133,7 +137,7 @@ p {
     margin-top: 1em;
 } */
 
-@media all and (max-width: 1356px) {
+@media only screen and (max-width: 1356px) {
     .fn {
         float: none;
         margin-right: none;
@@ -148,4 +152,9 @@ p {
         float: none;
         margin-right: none;
     }
+
+    .lofi {
+        min-height: 100%;
+    }
+
 }
